@@ -1,0 +1,122 @@
+
+.body-projetos{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo-projeto{
+    width: 20%;
+    padding: 5%;
+    margin-left: 23%;
+}
+
+.container{
+    display: flex;
+    /* background-color: blue; */
+    margin-top: 15%;
+    justify-content: space-around;
+}
+
+.projeto1,
+.projeto2,
+.projeto3{
+    margin-left: -10%;
+    margin-right: 70%;
+    
+}
+
+.projeto1{
+    animation: go-back 1s;
+}
+
+.projeto2{
+    animation: go-back 2s;
+}
+
+.projeto3{
+    animation: go-back 3s;
+}
+
+.projeto1 img,
+.projeto2 img,
+.projeto3 img{
+    width: 300px;
+    height: 280px;
+    object-fit: scale-down;
+    margin-bottom:15px;
+    border: 1px solid #cccc;
+    
+    border-radius: 5%;
+}
+
+.projeto2 img{
+    background-color: #c995e0;
+}
+.projeto1 h3,
+.projeto2 h3,
+.projeto3 h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+
+.projeto1 p,
+.projeto2 p,
+.projeto3 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 7%;
+    
+}
+.git-projeto1,
+.git-projeto2,
+.git-projeto3{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 7%;
+    color: #fff;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-left: 8%;
+    margin-right: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+
+.deploy-projeto1,
+.deploy-projeto2,
+.deploy-projeto3{
+    background-color: #DB85FA;
+    border: 2px solid #DB85FA;
+    border-radius: 7%;
+    color: #fff;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 20px;
+}
+
+.icones-linguagens1,
+.icones-linguagens2
+{
+    margin-left: 30%;
+    margin-bottom: 15px;
+}
+.icones-linguagens3{
+    margin-left: 35%;
+    margin-bottom: 15px;
+}
+
+
+
+
+@keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+}

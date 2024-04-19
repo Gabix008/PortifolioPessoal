@@ -1,0 +1,77 @@
+.body-contato{
+    background-color: #ffff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.conteudo-contato{
+    width: 50%;
+    padding: 5%;
+    margin-left: 23%;
+    position: absolute;
+    display: flex;
+}
+
+
+.contato-icon{
+    width: 70%;
+    padding: 8px;
+    background-color: aliceblue;
+    display: flex;
+    margin-bottom: 15px;
+}
+.email-icon{
+    width: 70%;
+    padding: 8px;
+    background-color: aliceblue;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.endereco-icon{
+    width: 70%;
+    padding: 8px;
+    background-color: aliceblue;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+.formulario{
+   margin-top: 10%;
+   margin-left: -26%;
+   position: relative;
+   flex-direction: column;
+
+}
+
+
+.input-name, 
+.input-email,
+.input-message{
+    background-color: #F5F5F5;
+    padding:3%;
+    width: 90%;
+    margin-bottom: 25px;
+    margin-top: 1%;
+}
+
+.input-message{
+    padding:8%;
+    width: 90%;
+}
+
+.enviar{
+    background-color: #DB85FA;
+    color: #ffff;
+    width: 40%;
+    padding: 2%;
+    margin-top: 5%;
+    border-radius: 15px;
+    margin-left: 35%;
+}
+
+.icones-sociais{
+    background-color: #DB85FA;
+    margin-top: 10%;
+}
